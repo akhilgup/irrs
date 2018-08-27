@@ -1,0 +1,57 @@
+* {
+  font-family: 'Josefin Sans';
+}
+
+nav {
+  height: 40px;
+  background-color: #3c3939;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  position: sticky;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+nav .nav-links {
+  padding: 8px 0;
+  margin: 0;
+  float: right;
+}
+
+nav .nav-links li {
+  display: inline-block;
+}
+
+nav .nav-links li a {
+  padding: 0 16px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.brand-logo {
+  float: left;
+}
+
+.brand-logo img {
+  width: 56px;
+  padding: 4px;
+}
+
+.fluid-container{
+  margin: 20px 0;
+}
+
+.c-label{
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px gray;
+  padding: 4px 24px;
+  font-size: 24px!important;
+}
+
+.c-complain-text{
+  font-size: 15px;
+}
