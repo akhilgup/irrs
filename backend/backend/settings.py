@@ -25,7 +25,7 @@ SECRET_KEY = 'u6d%myk6z39c=icfdkw&t3ze^ptv+ttqa)p1&_#dz#yhc3e5i4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -84,14 +84,24 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'nitiayog',
+        'NAME': 'nitiyog',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'akhilgupta',
         'HOST': '127.0.0.1',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'nitiayog',
+#         'USER': 'akhilgupta',
+#         'PASSWORD': 'akhilgup123',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators

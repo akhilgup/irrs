@@ -40,8 +40,10 @@ class Complains(models.Model):
     text = models.TextField(db_column='text', max_length=1000) # complaint text
     image = models.TextField(db_column='image', max_length=500000) # base64 encoded string
     location = models.TextField(db_column='location', max_length=100) # location of the problem
-    compl_by = models.ForeignKey('User',db_column='user_id',on_delete=models.CASCADE) # who registered the complaint
+    compl_by = models.TextField(db_column='user', max_length=50)
+    # compl_by = models.ForeignKey('User',db_column='user_id',on_delete=models.CASCADE) # who registered the complaint
     status = models.TextField(db_column='status', max_length=200) # status of the registered complaint, processed or not
+    results = models.TextField(db_column='results',max_length=1000)
 
     class Meta:
         managed = True

@@ -9,9 +9,9 @@ import cv2
 def testing_image():
 
 	# load the image
-	image = cv2.imread("test5.jpeg",0)
+	image = cv2.imread("test2.jpg",0)
 	# orig = image.copy()
-	orig = cv2.imread("test5.jpeg",1)
+	orig = cv2.imread("test2.jpg",1)
 	 
 	# pre-process the image for classification
 	image = cv2.resize(image, (128, 128))

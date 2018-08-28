@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NitiAyog</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="{% static "css/style.css" %}">
+</head>
+
+<body>
+  <nav>
+    <ul class="brand-logo">
+      <a href="#">
+        <img src="https://image.flaticon.com/icons/svg/317/317569.svg" alt="">
+      </a>
+      <center><h6>India</h6></center>
+    </ul>
+    <ul class="nav-links">
+      <li><a href="/complaints">Complains</a></li>
+      <li><a href="/satellite">Satellite Analysis</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="fluid-container">
+      <div class="c-label">Satellite Data Analysis</div>
+      <br>
+        <div class="row col-lg-12">
+          <div class="col-lg-4">
+            <div class="ui card">
+              <img class="ui image" src="{% static "images/image1.jpg" %}">
+              <div class="content">
+                <button class="col-lg-12 btn btn-info" style="margin-top:4px;" id="Btn">Assign</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="ui card">
+              <img class="ui image" src="{% static "images/image2.jpg" %}">
+              <div class="content">
+                <button class="col-lg-12 btn btn-info" style="margin-top:4px;" id="Btn">Assign</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="ui card">
+              <img class="ui image" src="{% static "images/image3.jpg" %}">
+              <div class="content">
+                <button class="col-lg-12 btn btn-info" style="margin-top:4px;" id="Btn">Assign</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
