@@ -5,6 +5,7 @@ Indian roads using India’s traffic images and assess the quality of road
 infrastructure based on satellite imaging (e.g. potholes on road, lane width,
 pedestrian space, cycling lanes and tracks, road encroachments etc.).
 View the working Demo with explanation**
+
 [![N|Solid](https://github.com/akhilgup/nitiayog_5/raw/master/backend/project/static/images/image.png)](https://www.youtube.com/watch?v=bzxh8ZBCSXA)
 
 
