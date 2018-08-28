@@ -59,7 +59,7 @@ python manage.py runserver
 
 ## Training 
 
-- The model is a result of **Convolutional Neural Network** with 2 Convolution Layers, 2 Pooling Layers applied with the **Rectified Linear Unit (ReLU)** activation function with **Filter Size of 5 ** along with Flatten Layer (Dense) made up of 500 neurons using **Rectified Linear Unit (ReLU)** as it's activation function. 
+- The model is a result of **Convolutional Neural Network** with 2 Convolution Layers, 2 Pooling Layers applied with the **Rectified Linear Unit (ReLU)** activation function with **Filter Size of 5 ** along with **Flatten Layer (Dense)** made up of 500 neurons using **Rectified Linear Unit (ReLU)** as it's activation function. 
 
 Training Parameters :-
 ``` 
@@ -67,7 +67,7 @@ EPOCHS = 30
 INIT_LR = 1e-3 // Initial Learning Rate
 BATCH_SIZE = 32
 ```
-- Output Layer is Dense Layer consisting of neurons equal to the no. of target classes (5) using Softmax as it's activation function.
+- Output Layer is Dense Layer consisting of neurons equal to the no. of Target Classes 5 using **softmax** as it's activation function.
 ### Image Pre-Processing 
 - All training images were scaled to 128 x 128 in Grayscale and all the pixels were feature scaled by dividing each pixel by 255.0. 
 - Image generator function has been used to increase the training data by flipping, rotating images : [Keras Image PreProcessing](https://keras.io/preprocessing/image/) .
@@ -77,9 +77,12 @@ BATCH_SIZE = 32
 ![Graph](https://github.com/akhilgup/nitiayog_5/raw/master/Figure_1.png)
 
 **Training Accuracy** : 91 %
+
 **Validation Accuracy**: 89.7 % 
+
 **Training Loss** : 0.2314
-**Validation Loss** : 0.2514**
+
+**Validation Loss** : 0.2514
 
 ## Libraries / Frameworks Used
 
