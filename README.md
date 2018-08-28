@@ -3,7 +3,9 @@
 **A Machine Learning Project to identify objects and anomalies on
 Indian roads using India’s traffic images and assess the quality of road
 infrastructure based on satellite imaging (e.g. potholes on road, lane width,
-pedestrian space, cycling lanes and tracks, road encroachments etc.).**
+pedestrian space, cycling lanes and tracks, road encroachments etc.).
+View the working Demo with explanation**
+[![N|Solid](https://github.com/akhilgup/nitiayog_5/raw/master/backend/project/static/images/image.png)](https://www.youtube.com/watch?v=bzxh8ZBCSXA)
 
 
 # Usage / Installation
@@ -47,7 +49,7 @@ The resultant output will be in the form of an image illustrating the Confidence
 
 ![Output Image](https://github.com/akhilgup/nitiayog_5/raw/master/result.jpg)
 
-- Install the android app by downloading the apk from the repository or click here
+- Test the android app by opening the ```RevantAI``` folder in the main repository  with AndroidStudio.
 > **Note :** The published APK has been tested on Android Platforms Marshmallow and below. There may be a compatibility issue for newer platforms.
 - Run the website on your local-host by navigating to [Backend](https://github.com/akhilgup/nitiayog_5/tree/master/backend) and running the following command
 ```
