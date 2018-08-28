@@ -59,7 +59,7 @@ python manage.py runserver
 
 ## Training 
 
-- The model is a result of **Convolutional Neural Network** with 2 Convolution Layers, 2 Pooling Layers applied with the **Rectified Linear Unit (ReLU)** activation function with **Filter Size of 5 ** along with **Flatten Layer (Dense)** made up of 500 neurons using **Rectified Linear Unit (ReLU)** as it's activation function. 
+- The model is a result of **Convolutional Neural Network** with 2 Convolution Layers, 2 Pooling Layers applied with the **Rectified Linear Unit (ReLU)** activation function with **Filter Size of 5** along with **Flatten Layer (Dense)** made up of 500 neurons using **Rectified Linear Unit (ReLU)** as it's activation function. 
 
 Training Parameters :-
 ``` 
