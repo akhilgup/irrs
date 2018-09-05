@@ -299,7 +299,8 @@ def get_all_complaints(request):
             fh.write(base64.decodebytes(base64_string))
 
         res = testing_image("0")
-        print(res)
+        # print(res)
+        print(query.query)
 
     return render(request, 'index.html', {'data': list(query), 'res': res})
 
