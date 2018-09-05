@@ -86,6 +86,7 @@ def testing_image(st):
     label_pedestrain_lanes = "{}: {:.2f}%".format(label[4], predictions[0][4] * 100)
 
     ak = [label_vehicle, label_potholes, label_freeways, label_traffic, label_pedestrain_lanes]
+    K.clear_session()
 
     return ak
 
