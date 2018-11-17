@@ -4,20 +4,25 @@ from datetime import datetime
 import pandas as pd
 
 
-db = mysql.connector.connect(user='root', password='apporva',
+db = mysql.connector.connect(user='root', password='akhilgupta',
                               host='localhost',
-                              database='innotech')
+                              database='hack')
 
 
 mycursor=db.cursor(buffered=True)
 
 y=os.listdir('images/')
-print(type(y))
+print(y)
 
 
 for i in y:
+
+	if i == '.DS_Store':
+		continue
 	
-	y= os.path.realpath(i)
+	y=  os.path.realpath(i)
+	y = '/'.join(y.split('/')[:-1] + ['images'] + y.split('/')[-1:])
+	print(y)
 
 	
 		
@@ -25,7 +30,7 @@ for i in y:
 	try:
 		sql="INSERT INTO image_input (image_name, image_path, time_stamp) VALUES(%s,%s,%s)"
 		data=(i,y,time_stamp)
-		# print(sql%data)
+		print(sql%data)
 
 		mycursor.execute(sql,data)
 
