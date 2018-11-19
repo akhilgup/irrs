@@ -96,11 +96,11 @@ def testing_image(x):
 		sql="INSERT INTO output_info (input_id,image_name,image_path,vehicle,potholes,freeways,traffic,pedestrian_lanes,time_stamp) VALUES(%s,%s, %s, %s, %s, %s, %s, %s, %s)"
 		data=(int(x),out_img_name,out_path,veh,pot,free,traf,ped,timestamp)
 		# print(output_file%data)
-		print(sql%data)
+		# print("try")
 		
 		mycursor.execute(sql,data)
 	except:
-		print("pass")
+		# print("pass")
 		pass
 	
 	
