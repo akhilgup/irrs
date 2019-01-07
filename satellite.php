@@ -40,7 +40,7 @@
                           <div class="col-lg-2">
                              <!-- image fetch from database-->
                               <?php
-                                 $conn = mysqli_connect('127.0.0.1','root','akhilgupta','hack');
+                                 $conn = mysqli_connect('devta.c6obkwbtq8na.us-east-2.rds.amazonaws.com','akhilgupta','8171834923','irrs');
                                  $sql = "SELECT * FROM image_input";
                                  $result = mysqli_query($conn,$sql);
                                  while ($row = mysqli_fetch_array($result)){

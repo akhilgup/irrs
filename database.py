@@ -4,9 +4,9 @@ from datetime import datetime
 import pandas as pd
 
 
-db = mysql.connector.connect(user='root', password='akhilgupta',
-                              host='localhost',
-                              database='hack')
+db = mysql.connector.connect(user='akhilgupta', password='8171834923',
+                              host='devta.c6obkwbtq8na.us-east-2.rds.amazonaws.com',
+                              database='irrs')
 
 
 mycursor=db.cursor(buffered=True)

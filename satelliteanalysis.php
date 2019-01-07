@@ -49,10 +49,10 @@
     {
     $imageid = $_REQUEST['imageid'];
     //echo $imageid;
-    $hostname = '127.0.0.1';
-    $username = 'root';
-    $password = 'akhilgupta';
-    $database = 'hack';
+    $hostname = 'devta.c6obkwbtq8na.us-east-2.rds.amazonaws.com';
+    $username = 'akhilgupta';
+    $password = '8171834923';
+    $database = 'irrs';
  
     $conn = mysqli_connect($hostname,$username,$password,$database);
    //$b = system('test.py',$a);
