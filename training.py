@@ -15,6 +15,8 @@ from sklearn.model_selection import train_test_split
 from keras.preprocessing.image import img_to_array
 from keras.utils import to_categorical
 from keras.layers import Dense, Activation, Dropout, Flatten
+import matplotlib
+matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 import argparse
 import random
