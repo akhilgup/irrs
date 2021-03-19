@@ -19,7 +19,7 @@ cytoolz==0.9.0.1
 dill==0.2.8.2
 Django==2.0.5
 django-cors-headers==2.4.0
-djangorestframework==3.8.2
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 docutils==0.14
 fabric==2.1.3
