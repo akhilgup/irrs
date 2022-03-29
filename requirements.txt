@@ -56,7 +56,7 @@ numpy==1.15.0
 oauth2client==1.5.2
 olefile==0.45.1
 pandas==0.23.3
-paramiko==2.4.1
+paramiko==2.10.1
 patsy==0.5.0
 Pillow==5.2.0
 plac==0.9.6
